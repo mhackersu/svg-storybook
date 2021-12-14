@@ -1,0 +1,107 @@
+@media screen and (max-width: 767px) {
+	#trigger1 {		
+		
+		#logo_dct {
+			height: 50px;
+			background-size: auto 50px;
+			position: relative;
+			top: 1vh;
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				height: 30px;
+				background-size: auto 30px;
+			}
+		}
+		#logo_roadTrip {
+			width: 70vw;
+			height: 12vh;
+			background-size: 100% auto;
+			margin: auto;
+			position: relative;
+			top: 1vh;
+
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				background-size: 70% auto;
+				height: 14vh;
+				top: 2vh;
+			}
+		}
+		.subtitle {
+			font-size: 5vw;
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				font-size: 4vw;
+				margin-top: 2vh;
+			}
+		}
+		#vehicle {
+			height: 35vh;
+				
+			@media screen and (max-height: 1201px) and (min-width: 599px){
+				margin-top: 10vh;
+			}
+
+			@media screen and (max-height: 580px) {
+				height: 32vh;
+			}
+			@media screen and (max-height: 518px) {
+				height: 28vh;
+			}
+			@media screen and (max-height: 485px) {
+				height: 26vh;
+				position: relative;
+				top: -4vh;
+			}
+			@media screen and (max-width: 320px) {
+				top: 0;
+			}
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				top: -6vh;
+			}
+
+			img.vehicle {
+				height: 17vh;
+				margin-top: 12vh;
+
+				@media screen and (max-height: 792px) {
+					margin-top: 16vh;
+				}
+				@media screen and (max-height: 580px) {
+					margin-top: 9vh;
+				}
+
+			}
+			.arrow {
+				top: 36vh !important;
+				@media screen and (max-height: 730px) {
+					background-size: 48px 48px !important;
+					top: 36vh !important;
+				}
+				@media screen and (max-width: 340px) {
+					background-size: 32px 32px !important;
+					height: 32px !important;
+					width: 32px !important;
+				}
+
+				&.left-arrow {
+					left: 10px !important;
+				}
+			}
+		}
+		#vehicle-name {
+			font-size: 24px;
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				display: none;
+			}
+		}
+		.useArrows {
+			display: none;
+		}
+		#lane-lines {
+			background: none;
+			@media screen and (max-height: 414px) and (orientation:landscape){
+				position: relative;
+				top: -2vh;
+			}
+		}
+	}
+
+}

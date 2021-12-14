@@ -1,0 +1,144 @@
+  #trigger1 {
+
+    .intro-fg {
+    background: url(../images/bkgd/intro.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    }
+
+  	// background: url(../images/bkgd/_introBkgd.svg);
+  	// background-position: center top;
+  	// background-size: cover;
+  	// background-color: #fff;
+
+    #logo_dct {
+      height: 80px;
+    	width: auto;
+    	background-image: url(../images/elements/logo_dct.png);
+      background-size: 14% auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      margin: auto;
+    }
+    //
+    #logo_roadTrip {
+      height: 120px;
+    	width: auto;
+    	background-image: url(../images/elements/road-trip-logo.png);
+      background-size: 50% auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    //
+    .subtitle {
+    	font-size: 31px;
+    	text-transform: uppercase;
+    	margin: auto;
+    	color: #1d3657;
+    	text-align: center;
+    	font-family: "buttonFont";
+    	letter-spacing: 2.2px;
+    }
+    //
+    #vehicle {
+      // padding-top: 20px;
+      margin-top: 10px;
+    	width: 100%;
+    	position: relative;
+    	z-index: 18;
+    	height: 230px;
+
+      img {
+        margin-top: 38px;
+        width: auto;
+        height: 187px;
+
+        &.van {
+          margin-top: 48px;
+        }
+        &.sport {
+          margin-top: 14px;
+        }
+      }
+
+      .arrow {
+        position: absolute;
+        top: 200px;
+        height: 64px;
+        width: 64px;
+        cursor: pointer;
+        z-index: 30;
+
+        &.left-arrow {
+          background: url(../images/elements/arrow_l.png);
+          background-repeat: no-repeat;
+          background-size: 64px 64px;
+          top: 100px;
+          left: 40px;
+        }
+        &.right-arrow {
+          background: url(../images/elements/arrow_r.png);
+          background-repeat: no-repeat;
+          background-size: 64px 64px;
+          top: 100px;
+          right: 10px;
+        }
+      }
+    }
+    .useArrows {
+      // margin-top: -20px;
+      // padding-top: 40px;
+      font-size: 28px;
+      letter-spacing: 2.2px;
+      font-family: "buttonFont";
+      color: #fcc258;
+      text-align: center;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+    }
+    //
+    #vehicle-name {
+      margin-top: -30px;
+      padding-top: 33px;
+      display: inline-block;
+      font-size: 36px;
+      letter-spacing: 2.2px;
+      font-family: "progressFont";
+      color: #fcc258;
+      text-align: center;
+      width: auto;
+      text-transform: uppercase;
+      border-bottom: 3px solid #fcc258;
+      margin-bottom: 10px;
+    }
+    //
+    .hitTheRoad {
+      // margin-top: 35px;
+      height: 50px;
+      line-height: 40px;
+      width: auto;
+      border: none;
+      text-transform: uppercase;
+      color: #192243;
+      letter-spacing: 1.7px;
+      font-family: "buttonFont";
+      font-size: 34px;
+      background: #fdcd73;
+      border-radius: 8px;
+      padding: 0 15px;
+      margin: auto;
+      cursor: pointer;
+    }
+    //
+    #lane-lines {
+      margin-top: 25px;
+      background: url(../images/elements/stripes.png);
+      background-repeat: no-repeat;
+      background-position: 0 13px;
+      background-size: 100% auto;
+      height: 80px;
+      width: 100%;
+    }
+  }

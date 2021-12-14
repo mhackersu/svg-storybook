@@ -1,0 +1,9 @@
+node_modules
+dist
+app/styles/styles.css
+app/scripts/app.js
+.sass-cache
+.DS_Store
+*~
+*.sw?
+*.log

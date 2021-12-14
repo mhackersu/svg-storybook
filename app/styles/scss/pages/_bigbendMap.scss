@@ -1,0 +1,37 @@
+.bigbend-map {
+  background: url(../images/bkgd/_mapBigbend.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+	.bigbend-map {
+		background: url(../images/bkgd/_mapBigbend.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 749px)
+	and (orientation: portrait) {
+	.bigbend-map {
+		background: url(../images/mobile/maps/_verticalBigbendMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 667px)
+	and (orientation: landscape) {
+	.bigbend-map {
+		background: url(../images/mobile/maps/_horizontalBigbendMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

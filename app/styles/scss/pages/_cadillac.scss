@@ -1,0 +1,203 @@
+
+#trigger14{
+	#cadillac {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/cadillac.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/bkgd/cadillac@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.foreground {
+			display: none;
+			@media screen and (min-width: 767px) {
+				width: 1440px;
+				height: 720px;
+				display: block;
+
+				img {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 80;
+				}
+			}
+		}
+
+		.vehicle {
+			top: 35%;
+			left: 50%;
+			width: 800px;
+			max-width: 800px;
+
+			@media screen and (max-width: 767px) {
+				width: 500px;
+				max-width: 500px;
+				left: 80%;
+				top: 35%;
+			}
+
+			@media screen and (max-width: 700px) {
+				left: 110%;
+			}
+		}
+
+		.people {
+			top: 240px;
+			left: 82%;
+			height: 330px;
+
+			@media screen and (max-width: 767px) {
+				height: 200px;
+				top: 35%;
+				left: 27%;
+			}
+		}
+
+		.action {
+			top: 77%;
+			left: 52%;
+		}
+
+		.plate {
+			background: url(../images/plates/plateCadillac.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateCadillac@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+			@media screen and (max-width: 767px) {
+				h5 {
+					font-size: 20px;
+				}
+			}
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalCadillacCheckEngine.png);
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	/*.cadillac-fg {
+		background: url(../images/bkgd/_cadillacFg.svg);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}*/
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-cadillac-sport {
+		background: url(../images/mobile/cadillac/_verticalCadillacSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-cadillac-sport {
+		background: url(../images/mobile/cadillac/_horizontalCadillacSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-cadillac-truck {
+		background: url(../images/mobile/cadillac/_verticalCadillacTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-cadillac-truck {
+		background: url(../images/mobile/cadillac/_horizontalCadillacTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-cadillac-van {
+		background: url(../images/mobile/cadillac/_verticalCadillacVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-cadillac-van {
+		background: url(../images/mobile/cadillac/_horizontalCadillacVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-cadillac-sedan {
+		background: url(../images/mobile/cadillac/_verticalCadillacSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-cadillac-sedan {
+		background: url(../images/mobile/cadillac/_horizontalCadillacSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "progressFont";
+	src: url(../fonts/LubalinGraphStd-Book.otf);
+}
+
+@font-face {
+	font-family: "headerFont";
+	src: url(../fonts/LubalinGraphStd-Demi.otf);
+}
+
+@font-face {
+	font-family: "buttonFont";
+	src: url(../fonts/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+	font-family: "dialogFont";
+	src: url(../fonts/LubalinGraphStd-Light.otf);
+}
+@font-face {
+  font-family: 'buttonFont';
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LeagueGothic-Regular.otf') format('otf'), /* Super Modern Browsers */
+       url('../fonts/leaguegothic-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/leaguegothic-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

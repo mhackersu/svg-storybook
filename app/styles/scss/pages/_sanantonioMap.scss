@@ -1,0 +1,37 @@
+.sanantonio-map {
+  background: url(../images/bkgd/_mapSanantonio.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+	.sanantonio-map {
+		background: url(../images/bkgd/_mapSanantonio.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 749px)
+	and (orientation: portrait) {
+	.sanantonio-map {
+		background: url(../images/mobile/maps/_verticalSanantonioMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 667px)
+	and (orientation: landscape) {
+	.sanantonio-map {
+		background: url(../images/mobile/maps/_horizontalSanantonioMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

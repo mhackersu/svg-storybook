@@ -1,0 +1,188 @@
+
+#trigger12 {
+	#dfw {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/dfw.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) { 
+					background: url(../images/bkgd/dfw@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.people {
+			top: 40%;
+			left: 35%;
+			height: 220px;
+
+			@media screen and (max-width: 767px) {
+				height: 180px;
+				top: 35%;
+				left: 10%;
+			}
+			@media screen and (max-width: 374px) {
+				height: 160px;
+				top: 40%;
+				left: 4%;
+			}
+		}
+
+		.action {
+			top: 30%;
+			left: 60%;
+		}
+
+		.bus {
+			top: 40%;
+			left: 55%;
+			width: 900px;
+			max-width: 1200px;
+
+			@media screen and (max-width: 767px) {
+				width: 800px;
+				max-width: 800px;
+			}
+		}
+
+		.plate {
+			background: url(../images/plates/plateDFW.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateDFW@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalDFWPass.png);
+			}
+			.bad {
+				background-image: url(../images/modal/modalDFWFail.png);
+			}
+			.choice h4, .answer .left-side h4 {
+				@media screen and (max-width: 374px) {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	// .dfw-fg {
+	// 	background: url(../images/bkgd/_dfwFg.svg);
+	// 	background-repeat: no-repeat;
+	// 	background-position: center bottom;
+	// 	background-size: cover;
+	// }
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-dfw-sport {
+		background: url(../images/mobile/dfw/_verticalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-dfw-sport {
+		background: url(../images/mobile/dfw/_horizontalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-dfw-truck {
+		background: url(../images/mobile/dfw/_verticalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-dfw-truck {
+		background: url(../images/mobile/dfw/_horizontalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-dfw-van {
+		background: url(../images/mobile/dfw/_verticalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-dfw-van {
+		background: url(../images/mobile/dfw/_horizontalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-dfw-sedan {
+		background: url(../images/mobile/dfw/_verticalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-dfw-sedan {
+		background: url(../images/mobile/dfw/_horizontalDfwBus.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

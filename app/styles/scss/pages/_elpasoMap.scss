@@ -1,0 +1,37 @@
+.elpaso-map {
+  background: url(../images/bkgd/_mapElpaso.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+	.elpaso-map {
+		background: url(../images/bkgd/_mapElpaso.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 749px)
+	and (orientation: portrait) {
+	.elpaso-map {
+		background: url(../images/mobile/maps/_verticalElpasoMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 667px)
+	and (orientation: landscape) {
+	.elpaso-map {
+		background: url(../images/mobile/maps/_horizontalElpasoMap.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

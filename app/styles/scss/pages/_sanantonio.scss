@@ -1,0 +1,191 @@
+
+#trigger22 {
+	#san-antonio {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/sanantonio.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/bkgd/sanantonio@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.vehicle {
+			top: 43%;
+			left: 50%;
+			width: 700px;
+			max-width: 700px;
+
+			@media screen and (max-width: 767px) {
+				width: 400px;
+				max-width: 400px;
+				top: 45%;
+			}
+			@media screen and (max-width: 413px) {
+				width: 300px;
+				max-width: 300px;
+				top: 48%;
+			}
+			@media screen and (max-width: 374px) {
+				top: 46%;
+			}
+		}
+
+		.people {
+			top: 55%;
+			left: 62%;
+			height: 320px;
+
+			@media screen and (max-width: 767px) {
+				height: 200px;
+				top: 45%;
+			}
+		}
+
+		.action {
+			top: 81%;
+			left: 42%;
+		}
+
+		.plate {
+			background: url(../images/plates/plateSanAntonio.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateSanAntonio@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalSanAntonioPass.png);
+			}
+			.bad {
+				background-image: url(../images/modal/modalSanAntonioFail.png);
+			}
+			.choice h4, .answer .left-side h4 {
+				@media screen and (max-width: 374px) {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*.sanantonio-fg {
+		background: url(../images/bkgd/sanantonio.png);
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+	}*/
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-san-antonio-sport {
+		background: url(../images/mobile/sanantonio/_verticalSanantonioSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-san-antonio-sport {
+		background: url(../images/mobile/sanantonio/_horizontalSanantonioSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-san-antonio-truck {
+		background: url(../images/mobile/sanantonio/_verticalSanantonioTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-san-antonio-truck {
+		background: url(../images/mobile/sanantonio/_horizontalSanantonioTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-san-antonio-van {
+		background: url(../images/mobile/sanantonio/_verticalSanantonioVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-san-antonio-van {
+		background: url(../images/mobile/sanantonio/_horizontalSanantonioVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-san-antonio-sedan {
+		background: url(../images/mobile/sanantonio/_verticalSanantonioSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-san-antonio-sedan {
+		background: url(../images/mobile/sanantonio/_horizontalSanantonioSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

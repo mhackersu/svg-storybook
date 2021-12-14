@@ -1,0 +1,202 @@
+
+#trigger18 {
+
+	#big-bend {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/bigbend.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/bkgd/bigbend@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.foreground {
+			display: none;
+			@media screen and (min-width: 767px) {
+				width: 1440px;
+				height: 720px;
+				display: block;
+
+				img {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 80;
+				}
+			}
+		}
+
+		.vehicle {
+			top: 42%;
+			left: 82%;
+			width: 900px;
+			max-width: 900px;
+
+			@media screen and (max-width: 767px) {
+				width: 500px;
+				max-width: 500px;
+				top: 48%;
+				left: 110%;
+			}
+		}
+
+		.people {
+			top: 55%;
+			left: 37%;
+			height: 320px;
+
+			@media screen and (max-width: 767px) {
+				height: 200px;
+				top: 36%;
+			}
+		}
+
+		.action {
+			top: 40%;
+			left: 55%;
+		}
+
+		.plate {
+			background: url(../images/plates/plateBigBend.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateBigBend@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalBigBendPass.png);
+			}
+			.bad {
+				background-image: url(../images/modal/modalBigBendFail.png);
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	// .bigbend-fg {
+	// 	background: url(../images/bkgd/_bigbendFg.svg);
+	// 	background-repeat: no-repeat;
+	// 	background-position: center bottom;
+	// 	background-size: cover;
+	// }
+	/*.bigbend-fg {
+		background: url(../images/bkgd/bigbend.png);
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+	}*/
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-big-bend-sport {
+		background: url(../images/mobile/bigbend/_verticalBigbendSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-big-bend-sport {
+		background: url(../images/mobile/bigbend/_horizontalBigbendSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-big-bend-truck {
+		background: url(../images/mobile/bigbend/_verticalBigbendTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-big-bend-truck {
+		background: url(../images/mobile/bigbend/_horizontalBigbendTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-big-bend-van {
+		background: url(../images/mobile/bigbend/_verticalBigbendVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-big-bend-van {
+		background: url(../images/mobile/bigbend/_horizontalBigbendVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-big-bend-sedan {
+		background: url(../images/mobile/bigbend/_verticalBigbendSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-big-bend-sedan {
+		background: url(../images/mobile/bigbend/_horizontalBigbendSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

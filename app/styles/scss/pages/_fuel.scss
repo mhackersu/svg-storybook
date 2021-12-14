@@ -1,0 +1,180 @@
+#trigger2 {
+
+	#fuel {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/fuel.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) { 
+					background: url(../images/bkgd/fuel@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.vehicle {
+			top: 48%;
+			left: 26%;
+			width: 1100px;
+			max-width: 925px;
+
+			@media screen and (max-width: 700px) {
+				width: 600px;
+				max-width: 600px;
+				top: 50%;
+			}
+		}
+
+		.people {
+			top: 45%;
+			left: 50%;
+			height: 370px;
+
+			@media screen and (max-width: 700px) {
+				height: 310px;
+				top: 40%;
+			}
+			@media screen and (max-width: 413px) {
+				height: 250px;
+				top: 40%;
+			}
+		}
+
+		.action {
+			top: 85%;
+			left: 66%;
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalFuelPass.png);
+			}
+			.bad {
+				background-image: url(../images/modal/modalFuelFail.png);
+			}
+			.choice h4 {
+				font-size: 20px;
+				@media screen and (max-width: 580px) {
+					font-size: 16px;
+				}
+			}
+			.answer .left-side h4 {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*.fuel-fg {
+		background: url(../images/bkgd/_fuelFg.svg);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}
+	.fuel-bg {
+		background: url(../images/bkgd/_fuelBg.svg);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}*/
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-fuel-sport {
+		background: url(../images/mobile/fuel/_verticalFuelSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-fuel-sport {
+		background: url(../images/mobile/fuel/_horizontalFuelSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-fuel-truck {
+		background: url(../images/mobile/fuel/_verticalFuelTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-fuel-truck {
+		background: url(../images/mobile/fuel/_horizontalFuelTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-fuel-van {
+		background: url(../images/mobile/fuel/_verticalFuelVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-fuel-van {
+		background: url(../images/mobile/fuel/_horizontalFuelVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-fuel-sedan {
+		background: url(../images/mobile/fuel/_verticalFuelSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-fuel-sedan {
+		background: url(../images/mobile/fuel/_horizontalFuelSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

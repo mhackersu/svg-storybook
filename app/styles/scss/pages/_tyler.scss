@@ -1,0 +1,202 @@
+
+#trigger10 {
+
+	#tyler {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/tyler.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/bkgd/tyler@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.foreground {
+			display: none;
+			@media screen and (min-width: 767px) {
+				width: 1440px;
+				height: 720px;
+				display: block;
+
+				img {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 80;
+				}
+			}
+		}
+
+		.vehicle {
+			left: 25%;
+			top: 49%;
+			width: 700px;
+			max-width: 700px;
+
+			@media screen and (max-width: 767px) {
+				width: 100vw;
+				max-width: 100vw;
+				top: 65%;
+			}
+		}
+
+		.people {
+			top: 55%;
+			left: 62%;
+			height: 300px;
+
+			@media screen and (max-width: 767px) {
+				height: 200px;
+				top: 55%;
+				left: 80vw;
+			}
+		}
+
+		.action {
+			top: 85%;
+			left: 25%;
+			@media screen and (max-width: 900px) {
+				top: 70%;
+			}
+			@media screen and (min-width: 900px) and (max-height: 701px) {
+				top: 50%;
+			}
+		}
+
+		.plate {
+			background: url(../images/plates/plateTyler.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateTyler@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalTylerPass.png);
+			}
+			.bad {
+				background-image: url(../images/modal/modalTylerFail.png);
+			}
+		}
+	}
+
+
+	@media screen and (max-width: 767px) {
+		/*.tyler-fg {
+			background: url(../images/bkgd/tyler.png);
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			background-position: center bottom;
+		}*/
+	}
+}
+
+// Mobile Sport
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-tyler-sport {
+		background: url(../images/mobile/tyler/_verticalTylerSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-tyler-sport {
+		background: url(../images/mobile/tyler/_horizontalTylerSport.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Truck
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-tyler-truck {
+		background: url(../images/mobile/tyler/_verticalTylerTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-tyler-truck {
+		background: url(../images/mobile/tyler/_horizontalTylerTruck.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-tyler-van {
+		background: url(../images/mobile/tyler/_verticalTylerVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-tyler-van {
+		background: url(../images/mobile/tyler/_horizontalTylerVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-tyler-sedan {
+		background: url(../images/mobile/tyler/_verticalTylerSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-tyler-sedan {
+		background: url(../images/mobile/tyler/_horizontalTylerSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

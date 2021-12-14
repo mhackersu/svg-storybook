@@ -1,0 +1,203 @@
+
+#trigger20 {
+
+	#austin {
+		@media screen and (min-width: 767px) {
+			background: url(../images/bkgd/austin.png);
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/bkgd/austin@2x.png);
+					background-size: 1440px 720px;
+				}
+		}
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+
+		.foreground {
+			display: none;
+			@media screen and (min-width: 767px) {
+				width: 1440px;
+				height: 720px;
+				display: block;
+
+				img {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 80;
+				}
+			}
+		}
+
+		.vehicle {
+			top: 39%;
+			left: 10%;
+			width: 900px;
+			max-width: 900px;
+
+			@media screen and (max-width: 767px) {
+				width: 500px;
+				max-width: 500px;
+				left: 110%;
+				top: 43%;
+			}
+			@media screen and (max-width: 374px) {
+				left: 130%;
+			}
+		}
+
+		.people {
+			top: 53%;
+			left: 77%;
+			height: 320px;
+
+			@media screen and (max-width: 767px) {
+				height: 200px;
+				top: 35%;
+				left: 20%;
+			}
+		}
+
+		.action {
+			top: 58%;
+			left: 26.3%;
+		}
+
+		.plate {
+			background: url(../images/plates/plateAustin.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+				only screen and (   min--moz-device-pixel-ratio: 1.5),
+				only screen and (     -o-min-device-pixel-ratio: 3/2),
+				only screen and (        min-device-pixel-ratio: 1.5) {
+					background: url(../images/plates/plateAustin@2x.png);
+					background-size: 326px 164px;
+					@media screen and (max-width: 767px) {
+						background-size: 220px 114px;
+					}
+				}
+		}
+
+		.modal {
+			.good {
+				background-image: url(../images/modal/modalAustinChill.png);
+			}
+			.choice h4, .answer .left-side h4 {
+				@media screen and (max-width: 374px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+
+
+	@media screen and (max-width: 767px) {
+		/* .austin-fg {
+		 	background: url(../images/bkgd/_austinFg.svg);
+		 	background-repeat: no-repeat;
+		 	background-position: center bottom;
+		 	background-size: cover;
+		 }*/
+	}
+
+	// Mobile Sport
+
+	@media screen
+		and (max-width: 767px)
+		and (orientation: portrait) {
+		.mobile-austin-sport {
+			background: url(../images/mobile/austin/_verticalAustinSport.svg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	@media screen
+		and (max-width: 767px)
+		and (orientation: landscape) {
+		.mobile-austin-sport {
+			background: url(../images/mobile/austin/_horizontalAustinSport.svg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	// Mobile Truck
+
+	@media screen
+		and (max-width: 767px)
+		and (orientation: portrait) {
+		.mobile-austin-truck {
+			background: url(../images/mobile/austin/_verticalAustinTruck.svg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	@media screen
+		and (max-width: 767px)
+		and (orientation: landscape) {
+		.mobile-austin-truck {
+			background: url(../images/mobile/austin/_horizontalAustinTruck.svg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+}
+
+// Mobile Van
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-austin-van {
+		background: url(../images/mobile/austin/_verticalAustinVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-austin-van {
+		background: url(../images/mobile/austin/_horizontalAustinVan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+// Mobile Sedan
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: portrait) {
+	.mobile-austin-sedan {
+		background: url(../images/mobile/austin/_verticalAustinSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen
+	and (max-width: 767px)
+	and (orientation: landscape) {
+	.mobile-austin-sedan {
+		background: url(../images/mobile/austin/_horizontalAustinSedan.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}

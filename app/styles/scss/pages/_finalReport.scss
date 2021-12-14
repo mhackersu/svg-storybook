@@ -1,0 +1,136 @@
+#trigger23 {
+
+	#final-report {
+		height: 100vh;
+		max-height: 100vh;
+		width: 100vw;
+		max-width: 100vw;
+		background: url(../images/bkgd/finalreport.png);
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+			only screen and (   min--moz-device-pixel-ratio: 1.5),
+			only screen and (     -o-min-device-pixel-ratio: 3/2),
+			only screen and (        min-device-pixel-ratio: 1.5) { 
+				background: url(../images/bkgd/finalreport@2x.png);
+				background-size: 100vw 100vh;
+		}
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100vw 100vh;
+	}
+
+    	#roadtrip {
+      		height: 75px;
+    		width: 600px;
+    		margin: auto;
+    		position: relative;
+    		top: 12px;
+    		background-image: url(../images/elements/road-trip-logo.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		
+		@media only screen and (max-width:615px) {
+			width: 90%;
+		}
+	}
+
+	#final-text {
+		height: 50px;
+		width: 100%;
+		margin-top: 30px;
+		background: linear-gradient(#e94d56, #e8536d);
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 50px;
+		font-size: 32px;
+		font-weight: 700;
+		letter-spacing: 1.6px;
+	}
+
+	.col-xs-12 {
+		width: 100%;
+		float: left;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	@media only screen and (min-width: 258px) {
+		.col-md-6 {
+			width: 50%;
+			float: left;
+			padding-left: 20px;
+			padding-right: 20px;
+
+			@media only screen and (max-width: 930px) {
+				padding-left: 8px;
+				padding-right: 8px;
+			}
+		}
+	}
+
+	.checkpoint {
+		margin: auto;
+		margin-top: 12px;
+		text-align: left;
+		height: 48px;
+		width: 530px;
+
+		@media only screen and (max-width: 984px) {
+			line-height: 30px;
+		}
+
+		@media only screen and (max-width: 767px) {
+			height: 32px;
+		}
+
+		.icon {
+			display: inline-block;
+			height: 48px;
+			width: 48px;
+			margin-right: 18px;
+			float: left;
+
+			&.good {
+    				background-image: url(../images/elements/check.png);
+    				background-size: 48px 48px;
+			}
+			&.bad {
+    				background-image: url(../images/elements/wrong.png);
+    				background-size: 48px 48px;
+			}
+
+			@media only screen and (max-width: 984px) {
+				height: 30px;
+				width: 30px;
+				margin-right: 8px;
+
+				&.good, &.bad {
+					background-size: 30px 30px;
+				}
+			}
+		}
+		.desc {
+			display: inline-block;
+			width: auto;
+			font-size: 22px;
+			font-weight: 700;
+			line-height: 48px;
+
+			@media only screen and (max-width: 1140px) {
+				font-size: 2.04vw;
+			}
+			@media only screen and (max-width: 984px) {
+				line-height: 30px;
+			}
+
+		}
+	}
+	.last_sentence {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 3vw;
+      		color: #fcc258;
+	}
+}
